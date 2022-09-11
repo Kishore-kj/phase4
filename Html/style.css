@@ -1,0 +1,12 @@
+table,td,th{ border:1px solid black; }
+
+.head{
+	color: ghostwhite;
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", monospace;
+	background-color: black;
+	margin :20px;
+	border : 20px;
+	padding : 10px;
+
+}

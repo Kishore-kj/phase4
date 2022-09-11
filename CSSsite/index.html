@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <style>
+    	@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+    	body{
+    		font-family: 'Mulish', sans-serif;
+    	}
+    	.container{
+    		width: 1080px;
+    		margin: auto;
+    		background-color: beige;
+    		padding: 10px;
+    	}
+    	nav{
+    		background-color: #333;
+    		width: 100%;
+    	}
+    	nav ul li{
+    		list-style-type: none ;
+    		display: inline-block;
+    		width: 150px;
+    	}
+    	nav a{
+    		display: block;
+    		text-decoration: none;
+    		color :white;
+    	    text-align: center;
+    	    padding: 10px 0;
+    	}
+    	nav a:hover{
+    		background-color:red;
+    		color: black;
+    	}
+    	.header-container header{
+    		background-color: black;
+    		color: white;
+    		text-transform: uppercase;
+    		padding: 10px;
+
+    	}
+    	#content{
+    		background-color: white;
+    		color: black;
+            width :56%;
+            float: left;
+            min-height: 500px;
+            padding :0 2%;
+    	}
+    	#sidemenu{
+    		width :36%;
+    		float:right;
+    		padding: 0 2%;
+    		color: white;
+
+    	}
+    	#sidemenu ul{
+    		margin: 0;
+    		padding: 0;
+    	}
+    	#sidemenu ul li{
+    		list-style-type: none;
+    		display: block;
+    		width: 100%;
+    		padding: 10px 0;
+
+
+    	}
+    	#sidemenu a{
+    		text-decoration: none;
+    		color: white;
+    	}
+    	#sidemenu li:hover{
+    		background-color: coral;
+    		color: black;
+    	}
+    	.main-container{
+    		background-color: #333;
+    	}
+    	.footer-container{
+    		background-color: black;
+    		color: white;
+    		
+
+    	}
+    	.clearfix{
+    		clear: both;
+    	}
+    </style>
+    
+  </head>
+  <body>
+    <div class = "container">
+    	<div class = "header-container">
+    		<header>
+    			<h1>LIVONIAN</h1>
+    			
+    		</header>
+                <nav>
+    				<ul>
+    					<li><a href="#">Home</a></li>
+    					<li><a href="#">Products</a></li>
+    					<li><a href="#">AboutUs</a></li>
+    					<li><a href="#">Contact</a></li>
+    				</ul>
+    		    </nav>
+    	</div>
+    
+    <div class = "main-container">
+        <div id ="content">
+        	<header>Main Page Content</header>
+        	<p>Livonian contents</p>
+        	<footer>Share on social media</footer>
+        </div>
+        <aside id="sidemenu">
+        	<h3>Newsfeed</h3>
+        	<ul>
+    			<li><a href="#">Link 1</a></li>
+    		    <li><a href="#">Link 2</a></li>
+    			<li><a href="#">Link 3</a></li>
+    			
+    		</ul>
+        </aside>
+        <div class="clearfix"></div>
+    </div>
+    <div class = "footer-container clearfix">
+    	<footer>
+    		<div>
+    			(c) copyright 2022
+    		</div>
+    	</footer>
+
+    </div>
+  </div>  
+	
+  </body>
+</html>
