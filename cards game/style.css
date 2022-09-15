@@ -1,0 +1,32 @@
+body{
+    background-image: url("card.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+h1{
+    color: goldenrod;
+    font-size: 70px;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: 40px;
+
+}
+button{
+    background: goldenrod;
+    font-weight: bold;
+    width: 150px;
+    color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+
+}

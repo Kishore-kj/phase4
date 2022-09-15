@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Inter:wght@500&family=Secular+One&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    color: green;
+}
+ul li{
+    list-style: none;
+    color: black;
+}
+#total{
+    color: green;
+    font-size: 20px;
+}
+button{
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: green;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+#reset-el{
+    background: darkgreen;
+}
+#delete-el{
+    background: red;
+}

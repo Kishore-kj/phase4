@@ -1,0 +1,32 @@
+body{
+    background-image: url("people.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+h2{
+    font: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#increment-btn{
+    background: blue;
+}
+#save-btn{
+    background: green;
+}

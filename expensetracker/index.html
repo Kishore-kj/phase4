@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+
+            Product Name:
+            <input type="text" id="pname">
+            Product Price:
+            <input type="number" id="pprice">
+
+        <hr>
+        
+        List of products:
+        <ul id="demo"></ul>
+        
+
+        <hr>
+       
+            <button id="add-el" onclick="add()">ADD EXPENSE</button>
+    
+            <button id="delete-el" onclick="delet()">DELETE</button>
+        
+        
+            <button id="reset-el" onclick="reset()">RESET</button>
+        
+     
+            <h3 style="color: black;">Total Expense: <span id="total-el" style="color: green;">0</span></h4>
+            
+       
+    <script src="script.js"></script> 
+</body>
+</html>
